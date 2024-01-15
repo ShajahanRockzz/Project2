@@ -176,3 +176,110 @@ a:hover{
     text-decoration: underline;
     cursor: pointer;
 }
+
+@media (max-width: 600px){
+    .navG{
+        width: 100%;
+        height: 150px;
+        position: static;
+        display: grid;
+        grid-template-rows: 110px 300px 300px 300px;
+    }
+
+    *{
+        font-size: 10px;
+    }
+
+    #navigation{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 30px;
+        left: -90%;
+    }
+
+    #navImg{
+        position: relative;
+        right: -150%;
+        width: 300%;
+    }
+
+    .bodySection{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 400px 400px;
+    }
+
+    #bS1G{
+        font-size: 200%;
+    }
+
+    #bS21 img{
+        width: 40%;
+        height: 60%;
+    }
+
+    #bS22 h4{
+        font-size: 200%;
+        position: relative;
+        top: -100px;
+    }
+    
+    #bS22 p{
+        font-size: 200%;
+        position: relative;
+        top: -120px;
+    }
+
+    .bodySection2{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 300px;
+    }
+
+    .endSection{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px;
+    }
+
+    #instaP{
+        font-size: 90%;
+        position: relative;
+        left: 15%;
+        top: 32%;
+    }
+
+    #insta{
+        width: 10%;
+        position: relative;
+        left: 5%;
+    }
+
+    #fb{
+        width: 10%;
+        position: relative;
+        left: -39%;
+        top: 85%;
+    }
+
+    #fbP{
+        position: relative;
+        left: -29%;
+        top: 76%;
+    }
+
+    #more h4{
+        font-size: 200%;
+    }
+
+    #more p{
+        font-size: 150%;
+    }
+
+    #more img{
+        position: relative;
+        top: -25%;
+        left: 15%;
+    }
+}
